@@ -1,0 +1,108 @@
+
+
+a:hover
+{
+    cursor: pointer
+}
+
+hr
+{
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.container
+{
+    width:350px;
+    margin: 0 auto;
+}
+
+.header
+{
+    text-align: center;
+    font-family: Verdana;
+    color:#0000FF;
+}
+
+.game-container
+{
+    height:400px;
+    margin-top:10px;
+}
+
+.grid
+{
+    float:left;
+    background-color: #5f5858;
+    box-shadow: 0 0 10px 2px #969292;
+    border:1px solid #CCCCCC;
+}
+
+.next-canvas
+{
+}
+
+.controls-container
+{
+    width:130px;
+    float:right;
+    height:100%;
+}
+
+.score-container
+{
+    background-color: #5f5858;
+    box-shadow: 0 0 10px 2px #969292;
+    color: #51b9a6;
+    text-align: center;
+    font-size:25px;
+    border:1px solid #CCCCCC;
+    font-weight: bold;
+    padding:5px;
+}
+
+.score-container::before
+{
+    content: "Lines Cleared";
+    width:100%;
+    float:right;
+    color: #BBBBBB;
+    font-size:15px;
+    font-weight: normal;
+}
+
+.next-container
+{
+    background-color: #5f5858;
+    box-shadow: 0 0 10px 2px #969292;
+    color: #51b9a6;
+    text-align: center;
+    font-size:25px;
+    border:1px solid #CCCCCC;
+    font-weight: bold;
+    padding:5px;
+}
+
+.next-container::before
+{
+    content: "Next Piece";
+    width:100%;
+    float:right;
+    color: #BBBBBB;
+    font-size:15px;
+    font-weight: normal;
+}
+
+.footer
+{
+    font-family: Verdana;
+    color:#000000;
+    font-size: 12px;
+}
+
+.fb-like {
+    vertical-align: top;
+}
+.fb_iframe_widget span {
+    vertical-align: text-top !important;
+}
